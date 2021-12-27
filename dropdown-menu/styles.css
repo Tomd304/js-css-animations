@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 25px;
+    background-color: #333;
+    color: black;
+}
+
+.full-width {
+    width: 500px
+}
+
+button {
+    padding: 10px 0px;
+}
+
+li {
+    list-style: none;
+}
+
+/*BELOW ARE CSS CLASSES FOR DROPDOWN MENU*/
+
+.search-list {
+    overflow: hidden;
+    position: absolute;
+}
+
+.ul-dropdown  {
+    height: 0px;
+    top: -500px;    
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    position: relative;    
+    padding: 10px 0;
+    gap: 10px;    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: all 500ms;    
+}
+
+@keyframes fly {
+    0%      {top: -500px;}
+    100%    {top: 0px;}
+}
+
+.shown {
+    height: 100%;
+    top: 0px
+}
+
+
+
