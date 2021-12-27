@@ -30,24 +30,24 @@ body {
 
 
 .top-half {
+    top: 250px;
     height: 250px;
     width: 500px;
     border-top-left-radius: 250px;
     border-top-right-radius: 250px;
     background-color: white;
-    display: flex;
-    align-items: flex-end;
 }
 
 .top-mini {
-    height: 125px;
+    margin-top: 125px;
+    height: 250px;
     width: 250px;
     background-color: black;
-    border-top-left-radius: 125px;
-    border-top-right-radius: 125px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
+    position: relative;
 }
 
 .left-mini {
@@ -64,19 +64,20 @@ body {
     border-bottom-right-radius: 250px;
     border-bottom-left-radius: 250px;
     background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
 }
 
 .bot-mini {
-    height: 125px;
+    margin-left: auto;
+    margin-top: -125px;
+    height: 250px;
     width: 250px;
     background-color: white;
-    border-bottom-right-radius: 125px;
-    border-bottom-left-radius: 125px;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-mini {
