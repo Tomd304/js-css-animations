@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+
+body {
+    margin: 25px;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 10s linear;
+    transform: rotate(360deg);
+    border-collapse: collapse;
+    background-color: white;
+}
+
+
+
+.top-half {
+    height: 250px;
+    width: 500px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    background-color: white;
+    display: flex;
+    align-items: flex-end;
+}
+
+.top-mini {
+    height: 125px;
+    width: 250px;
+    background-color: black;
+    border-top-left-radius: 125px;
+    border-top-right-radius: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.left-mini {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+.bot-half {
+    height: 250px;
+    width: 500px;
+    border-bottom-right-radius: 250px;
+    border-bottom-left-radius: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.bot-mini {
+    height: 125px;
+    width: 250px;
+    background-color: white;
+    border-bottom-right-radius: 125px;
+    border-bottom-left-radius: 125px;
+    display: flex;
+    justify-content: center;
+}
+
+.right-mini {
+    height: 30px;
+    width: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
